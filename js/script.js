@@ -13,7 +13,7 @@ function newItem(){
        if (inputValue === '') {
          alert('You must write something!');
        } else {
-           // this returns back the form if  othing is typed
+           // this returns back the form if nothing is typed
          $('#list').append(li);
        }
 
