@@ -17,8 +17,12 @@ function newItem(){
          $('#list').append(li);
        }
 
+    //function for striking out any list item
+    function crossOut() {
+      li.toggleClass('strike');
+    }
     // strikes list item out when clicked
-    li.on('dblclick', function crossOut(){
+    li.on('dblclick', function crossOut() {
       li.toggleClass('strike');
     });
     
