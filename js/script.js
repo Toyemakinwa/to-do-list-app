@@ -7,6 +7,7 @@ function newItem(){
     let inputValue = $('#input').val();
     //appends it as a child to the list
     li.append(inputValue);
+    $('#input').val('');
     
       
     //create a conditional statement to input text
